@@ -165,7 +165,7 @@ int lsh_help(char **args) {
 
 int lsh_exit(char **args) { return 0; }
 
-int lsh_execute(char **args) {
+int lsh_execute_line(char **args) {
   int i;
 
   if (args[0] == NULL) {
